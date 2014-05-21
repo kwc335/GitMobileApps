@@ -1,0 +1,15 @@
+package com.example.ademowebcarpark;
+
+public class CarPark {
+
+	private int carParkID;
+	private String area;
+	private String development;
+	private int lots;
+	private String summary;
+	private Date createDate;
+	private Double latitude;
+	private Double longitude;
+	private Double distance;
+	
+}
