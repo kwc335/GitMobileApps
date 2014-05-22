@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>182DEAB6-3A40-40A5-8DAD-1C1409030A80</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CoffeeKit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B70C1D2B-D2CB-48F8-AAA3-D3F8EC73BD5F</key>
+		<string>https://github.com/kwc335/MyMobileApps</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RWT/CoffeeKit/CoffeeKit.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B70C1D2B-D2CB-48F8-AAA3-D3F8EC73BD5F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kwc335/MyMobileApps</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B70C1D2B-D2CB-48F8-AAA3-D3F8EC73BD5F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B70C1D2B-D2CB-48F8-AAA3-D3F8EC73BD5F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MyMobileApps</string>
+		</dict>
+	</array>
+</dict>
+</plist>
