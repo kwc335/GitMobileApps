@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <array>
+    <dict>
+      <key>question</key>
+      <string>Name the individuals primarily credited with the creation of Objective-C:</string>
+      <key>answer1</key>
+      <string>Ray Wenderlich and Dani Arnaout</string>
+      <key>answer2</key>
+      <string>Brad Cox and Tom Love</string>
+      <key>answer3</key>
+      <string>Steve jobs and Bill Gates</string>
+      <key>answer4</key>
+      <string>Bruce Wayne and Dick Grayson</string>
+      <key>correctAnswer</key>
+      <integer>2</integer>
+    </dict>
+    <dict>
+      <key>question</key>
+      <string>Which of the following is a valid comment in Objective-C?</string>
+      <key>answer1</key>
+      <string>- This is a comment</string>
+      <key>answer2</key>
+      <string>|| This is a comment</string>
+      <key>answer3</key>
+      <string>// This is not a comment</string>
+      <key>answer4</key>
+      <string>/* This is a comment /*</string>
+      <key>correctAnswer</key>
+      <integer>3</integer>
+    </dict>
+    <dict>
+      <key>question</key>
+      <string>By convention, a class implementation is stored in a file with which extension?</string>
+      <key>answer1</key>
+      <string>.h</string>
+      <key>answer2</key>
+      <string>.m</string>
+      <key>answer3</key>
+      <string>.c</string>
+      <key>answer4</key>
+      <string>.cpp</string>
+      <key>correctAnswer</key>
+      <integer>2</integer>
+    </dict>
+    <dict>
+      <key>question</key>
+      <string>What does ARC stands for?</string>
+      <key>answer1</key>
+      <string>Automated Reduced Cycling</string>
+      <key>answer2</key>
+      <string>Air Race Car</string>
+      <key>answer3</key>
+      <string>Automatic Reference Counting</string>
+      <key>answer4</key>
+      <string>Advanced Retain Counter</string>
+      <key>correctAnswer</key>
+      <integer>3</integer>
+    </dict>
+  </array>
+</plist>
