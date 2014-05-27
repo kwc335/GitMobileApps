@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0C1D9551934783C00CD92E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C1D9541934783C00CD92E7 /* Foundation.framework */; };
+		C0C1D9571934783C00CD92E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C1D9561934783C00CD92E7 /* CoreGraphics.framework */; };
+		C0C1D9591934783C00CD92E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C1D9581934783C00CD92E7 /* UIKit.framework */; };
+		C0C1D95B1934783C00CD92E7 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C1D95A1934783C00CD92E7 /* SpriteKit.framework */; };
+		C0C1D9611934783C00CD92E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0C1D95F1934783C00CD92E7 /* InfoPlist.strings */; };
+		C0C1D9631934783C00CD92E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C1D9621934783C00CD92E7 /* main.m */; };
+		C0C1D9671934783C00CD92E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C1D9661934783C00CD92E7 /* AppDelegate.m */; };
+		C0C1D96A1934783C00CD92E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C1D9681934783C00CD92E7 /* Main.storyboard */; };
+		C0C1D96D1934783C00CD92E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C1D96C1934783C00CD92E7 /* ViewController.m */; };
+		C0C1D9701934783C00CD92E7 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C1D96F1934783C00CD92E7 /* MyScene.m */; };
+		C0C1D9721934783C00CD92E7 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = C0C1D9711934783C00CD92E7 /* Spaceship.png */; };
+		C0C1D9741934783C00CD92E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C1D9731934783C00CD92E7 /* Images.xcassets */; };
+		C0C1D97B1934783C00CD92E7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C1D97A1934783C00CD92E7 /* XCTest.framework */; };
+		C0C1D97C1934783C00CD92E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C1D9541934783C00CD92E7 /* Foundation.framework */; };
+		C0C1D97D1934783C00CD92E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C1D9581934783C00CD92E7 /* UIKit.framework */; };
+		C0C1D9851934783C00CD92E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0C1D9831934783C00CD92E7 /* InfoPlist.strings */; };
+		C0C1D9871934783C00CD92E7 /* KWTSpriteGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C1D9861934783C00CD92E7 /* KWTSpriteGameTests.m */; };
+		C0C1D9941934784C00CD92E7 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = C0C1D9911934784C00CD92E7 /* background-music-aac.caf */; };
+		C0C1D9951934784C00CD92E7 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = C0C1D9921934784C00CD92E7 /* pew-pew-lei.caf */; };
+		C0C1D9961934784C00CD92E7 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C0C1D9931934784C00CD92E7 /* sprites.atlas */; };
+		C0C1D99919347A0C00CD92E7 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C1D99819347A0C00CD92E7 /* GameOverScene.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0C1D97E1934783C00CD92E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0C1D9491934783B00CD92E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0C1D9501934783B00CD92E7;
+			remoteInfo = KWTSpriteGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0C1D9511934783C00CD92E7 /* KWTSpriteGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWTSpriteGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C1D9541934783C00CD92E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0C1D9561934783C00CD92E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C0C1D9581934783C00CD92E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C0C1D95A1934783C00CD92E7 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		C0C1D95E1934783C00CD92E7 /* KWTSpriteGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KWTSpriteGame-Info.plist"; sourceTree = "<group>"; };
+		C0C1D9601934783C00CD92E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0C1D9621934783C00CD92E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0C1D9641934783C00CD92E7 /* KWTSpriteGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KWTSpriteGame-Prefix.pch"; sourceTree = "<group>"; };
+		C0C1D9651934783C00CD92E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0C1D9661934783C00CD92E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0C1D9691934783C00CD92E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0C1D96B1934783C00CD92E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0C1D96C1934783C00CD92E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0C1D96E1934783C00CD92E7 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		C0C1D96F1934783C00CD92E7 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		C0C1D9711934783C00CD92E7 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		C0C1D9731934783C00CD92E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0C1D9791934783C00CD92E7 /* KWTSpriteGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KWTSpriteGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C1D97A1934783C00CD92E7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C0C1D9821934783C00CD92E7 /* KWTSpriteGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KWTSpriteGameTests-Info.plist"; sourceTree = "<group>"; };
+		C0C1D9841934783C00CD92E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0C1D9861934783C00CD92E7 /* KWTSpriteGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWTSpriteGameTests.m; sourceTree = "<group>"; };
+		C0C1D9911934784C00CD92E7 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		C0C1D9921934784C00CD92E7 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		C0C1D9931934784C00CD92E7 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		C0C1D99719347A0C00CD92E7 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		C0C1D99819347A0C00CD92E7 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0C1D94E1934783B00CD92E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C1D9571934783C00CD92E7 /* CoreGraphics.framework in Frameworks */,
+				C0C1D9591934783C00CD92E7 /* UIKit.framework in Frameworks */,
+				C0C1D95B1934783C00CD92E7 /* SpriteKit.framework in Frameworks */,
+				C0C1D9551934783C00CD92E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C1D9761934783C00CD92E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C1D97B1934783C00CD92E7 /* XCTest.framework in Frameworks */,
+				C0C1D97D1934783C00CD92E7 /* UIKit.framework in Frameworks */,
+				C0C1D97C1934783C00CD92E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0C1D9481934783B00CD92E7 = {
+			isa = PBXGroup;
+			children = (
+				C0C1D95C1934783C00CD92E7 /* KWTSpriteGame */,
+				C0C1D9801934783C00CD92E7 /* KWTSpriteGameTests */,
+				C0C1D9531934783C00CD92E7 /* Frameworks */,
+				C0C1D9521934783C00CD92E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0C1D9521934783C00CD92E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0C1D9511934783C00CD92E7 /* KWTSpriteGame.app */,
+				C0C1D9791934783C00CD92E7 /* KWTSpriteGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0C1D9531934783C00CD92E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0C1D9541934783C00CD92E7 /* Foundation.framework */,
+				C0C1D9561934783C00CD92E7 /* CoreGraphics.framework */,
+				C0C1D9581934783C00CD92E7 /* UIKit.framework */,
+				C0C1D95A1934783C00CD92E7 /* SpriteKit.framework */,
+				C0C1D97A1934783C00CD92E7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0C1D95C1934783C00CD92E7 /* KWTSpriteGame */ = {
+			isa = PBXGroup;
+			children = (
+				C0C1D9901934784C00CD92E7 /* Sounds */,
+				C0C1D9931934784C00CD92E7 /* sprites.atlas */,
+				C0C1D9651934783C00CD92E7 /* AppDelegate.h */,
+				C0C1D9661934783C00CD92E7 /* AppDelegate.m */,
+				C0C1D9681934783C00CD92E7 /* Main.storyboard */,
+				C0C1D96B1934783C00CD92E7 /* ViewController.h */,
+				C0C1D96C1934783C00CD92E7 /* ViewController.m */,
+				C0C1D96E1934783C00CD92E7 /* MyScene.h */,
+				C0C1D96F1934783C00CD92E7 /* MyScene.m */,
+				C0C1D9711934783C00CD92E7 /* Spaceship.png */,
+				C0C1D9731934783C00CD92E7 /* Images.xcassets */,
+				C0C1D95D1934783C00CD92E7 /* Supporting Files */,
+				C0C1D99719347A0C00CD92E7 /* GameOverScene.h */,
+				C0C1D99819347A0C00CD92E7 /* GameOverScene.m */,
+			);
+			path = KWTSpriteGame;
+			sourceTree = "<group>";
+		};
+		C0C1D95D1934783C00CD92E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0C1D95E1934783C00CD92E7 /* KWTSpriteGame-Info.plist */,
+				C0C1D95F1934783C00CD92E7 /* InfoPlist.strings */,
+				C0C1D9621934783C00CD92E7 /* main.m */,
+				C0C1D9641934783C00CD92E7 /* KWTSpriteGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0C1D9801934783C00CD92E7 /* KWTSpriteGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0C1D9861934783C00CD92E7 /* KWTSpriteGameTests.m */,
+				C0C1D9811934783C00CD92E7 /* Supporting Files */,
+			);
+			path = KWTSpriteGameTests;
+			sourceTree = "<group>";
+		};
+		C0C1D9811934783C00CD92E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0C1D9821934783C00CD92E7 /* KWTSpriteGameTests-Info.plist */,
+				C0C1D9831934783C00CD92E7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0C1D9901934784C00CD92E7 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C0C1D9911934784C00CD92E7 /* background-music-aac.caf */,
+				C0C1D9921934784C00CD92E7 /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0C1D9501934783B00CD92E7 /* KWTSpriteGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0C1D98A1934783C00CD92E7 /* Build configuration list for PBXNativeTarget "KWTSpriteGame" */;
+			buildPhases = (
+				C0C1D94D1934783B00CD92E7 /* Sources */,
+				C0C1D94E1934783B00CD92E7 /* Frameworks */,
+				C0C1D94F1934783B00CD92E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KWTSpriteGame;
+			productName = KWTSpriteGame;
+			productReference = C0C1D9511934783C00CD92E7 /* KWTSpriteGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0C1D9781934783C00CD92E7 /* KWTSpriteGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0C1D98D1934783C00CD92E7 /* Build configuration list for PBXNativeTarget "KWTSpriteGameTests" */;
+			buildPhases = (
+				C0C1D9751934783C00CD92E7 /* Sources */,
+				C0C1D9761934783C00CD92E7 /* Frameworks */,
+				C0C1D9771934783C00CD92E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0C1D97F1934783C00CD92E7 /* PBXTargetDependency */,
+			);
+			name = KWTSpriteGameTests;
+			productName = KWTSpriteGameTests;
+			productReference = C0C1D9791934783C00CD92E7 /* KWTSpriteGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0C1D9491934783B00CD92E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = KWC;
+				TargetAttributes = {
+					C0C1D9781934783C00CD92E7 = {
+						TestTargetID = C0C1D9501934783B00CD92E7;
+					};
+				};
+			};
+			buildConfigurationList = C0C1D94C1934783B00CD92E7 /* Build configuration list for PBXProject "KWTSpriteGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0C1D9481934783B00CD92E7;
+			productRefGroup = C0C1D9521934783C00CD92E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0C1D9501934783B00CD92E7 /* KWTSpriteGame */,
+				C0C1D9781934783C00CD92E7 /* KWTSpriteGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0C1D94F1934783B00CD92E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C1D9961934784C00CD92E7 /* sprites.atlas in Resources */,
+				C0C1D9941934784C00CD92E7 /* background-music-aac.caf in Resources */,
+				C0C1D9611934783C00CD92E7 /* InfoPlist.strings in Resources */,
+				C0C1D9741934783C00CD92E7 /* Images.xcassets in Resources */,
+				C0C1D9721934783C00CD92E7 /* Spaceship.png in Resources */,
+				C0C1D96A1934783C00CD92E7 /* Main.storyboard in Resources */,
+				C0C1D9951934784C00CD92E7 /* pew-pew-lei.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C1D9771934783C00CD92E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C1D9851934783C00CD92E7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0C1D94D1934783B00CD92E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C1D99919347A0C00CD92E7 /* GameOverScene.m in Sources */,
+				C0C1D9701934783C00CD92E7 /* MyScene.m in Sources */,
+				C0C1D96D1934783C00CD92E7 /* ViewController.m in Sources */,
+				C0C1D9671934783C00CD92E7 /* AppDelegate.m in Sources */,
+				C0C1D9631934783C00CD92E7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C1D9751934783C00CD92E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C1D9871934783C00CD92E7 /* KWTSpriteGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0C1D97F1934783C00CD92E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0C1D9501934783B00CD92E7 /* KWTSpriteGame */;
+			targetProxy = C0C1D97E1934783C00CD92E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0C1D95F1934783C00CD92E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0C1D9601934783C00CD92E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C0C1D9681934783C00CD92E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0C1D9691934783C00CD92E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0C1D9831934783C00CD92E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0C1D9841934783C00CD92E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0C1D9881934783C00CD92E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0C1D9891934783C00CD92E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0C1D98B1934783C00CD92E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KWTSpriteGame/KWTSpriteGame-Prefix.pch";
+				INFOPLIST_FILE = "KWTSpriteGame/KWTSpriteGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C0C1D98C1934783C00CD92E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KWTSpriteGame/KWTSpriteGame-Prefix.pch";
+				INFOPLIST_FILE = "KWTSpriteGame/KWTSpriteGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C0C1D98E1934783C00CD92E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KWTSpriteGame.app/KWTSpriteGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KWTSpriteGame/KWTSpriteGame-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KWTSpriteGameTests/KWTSpriteGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C0C1D98F1934783C00CD92E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KWTSpriteGame.app/KWTSpriteGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KWTSpriteGame/KWTSpriteGame-Prefix.pch";
+				INFOPLIST_FILE = "KWTSpriteGameTests/KWTSpriteGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0C1D94C1934783B00CD92E7 /* Build configuration list for PBXProject "KWTSpriteGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C1D9881934783C00CD92E7 /* Debug */,
+				C0C1D9891934783C00CD92E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0C1D98A1934783C00CD92E7 /* Build configuration list for PBXNativeTarget "KWTSpriteGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C1D98B1934783C00CD92E7 /* Debug */,
+				C0C1D98C1934783C00CD92E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0C1D98D1934783C00CD92E7 /* Build configuration list for PBXNativeTarget "KWTSpriteGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C1D98E1934783C00CD92E7 /* Debug */,
+				C0C1D98F1934783C00CD92E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0C1D9491934783B00CD92E7 /* Project object */;
+}
